@@ -29,7 +29,7 @@ public class IntercomEventEmitter extends ReactContextBaseJavaModule {
     public IntercomEventEmitter(ReactApplicationContext reactContext) {
         super(reactContext);
 
-        unreadConversationCountListener();
+        this.addUnreadConversationCountListener();
     }
 
     @Override
